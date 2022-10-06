@@ -11,22 +11,85 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution a { color: white; }
+    body{
+      background-image: url("bg-desktop.svg");
+      background-color: hsl(257, 40%, 49%);
+      max-width: 1440px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+    }
+    .mainlogo{
+      float: left;
+      width: 200px;
+      margin-top: 30px;
+      margin-left: 50px;
+
+    }
+    .mainimg{
+      max-width: 660px;
+      margin-top: 140px;
+      margin-left: -200px;
+    }
+    .title{
+      float: right;
+      color: aliceblue;
+      font-size: 40px;
+      margin-top: 170px;
+      margin-right: 170px;
+      font-weight: 600;
+    }
+    .paragraph{
+      float: right;
+      margin-top: -320px;
+      margin-right: 150px;
+      font-weight: 400;
+      color: gainsboro;
+      line-height: 25px;
+    }
+    .text{
+      float: right;
+      margin-top: -220px;
+      margin-right: 400px;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border-radius: 30px;
+      background-color: aliceblue;
+      color: hsl(257, 40%, 49%);
+    }
+    .text:hover{
+      transition: 20ms;
+      background-color: hsl(300, 69%, 71%);
+      color: aliceblue;
+    }
+    footer{
+      float: left;
+      margin-top: -1px;
+    }
+
   </style>
 </head>
 <body>
-
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Register
-
+  <main>
+    <div>
+      <picture>
+        <img src="logo.svg" alt="main logo" class="mainlogo">
+      </picture>
+      <picture>
+        <img src="illustration-mockups.svg" alt="illustrative picture" class="mainimg">
+      </picture>
+      <h1 class="title">Build The Community<br>Your Fans Will Love</h1>
+      <p class="paragraph">Huddle re-imagines the way we build communities. You have<br> a voice, but so does your audience. 
+      Create connections with<br> your users as you engage in genuine discussion.</p>
+      <p class="text">Register</p>
+    </div>
+  </main>
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://github.com/Kauaguarinogabriell">Kauã Guarino</a>.
     </p>
   </footer>
 </body>
